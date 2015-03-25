@@ -1,4 +1,4 @@
-# `Array.prototype.head`
+# `Array.prototype.take`
 
 ## Status
 
@@ -11,9 +11,9 @@ WIP strawman proposal.
 **Example:**
 
 ```js
-[1, 2, 3].head();
-// 1
-[1, 2, 3].head(2);
+[1, 2, 3].take();
+// [1]
+[1, 2, 3].take(2);
 // [1, 2]
 ```
 
@@ -26,7 +26,7 @@ WIP strawman proposal.
 **Syntax**
 
 ```ts
-Array.prototype.head(n=1): array|any
+Array.prototype.take(n=1): array
 ```
 
 **Description**
